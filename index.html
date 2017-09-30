@@ -10,6 +10,10 @@
       body {
         border: 1px solid black;
       }
+      #myframe {
+        width: 1920px;
+        height: 1080px;
+      }
     </style>
 
     <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
@@ -19,8 +23,7 @@
   </head>
 
   <body>
-    <!-- This code is in the public domain. Enjoy! -->
-    <h1>Hello World</h1>
+    <iframe id="myframe" src="https://www.mozilla.jp/" mozbrowser></iframe>
   </body>
 
 </html>
