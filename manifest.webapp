@@ -10,8 +10,8 @@
   },
   "type":"certified",
   "permissions":{
-    "browser":{
-    }
+    "browser":{},
+    "systemXHR":{}
   },
   "developer": {
     "name": "Your name",
