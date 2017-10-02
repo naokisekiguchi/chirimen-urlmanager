@@ -1,6 +1,6 @@
 window.addEventListener("load", function() {
   const urlmanager = new UrlManager({
-    domain:"http://192.168.212.21:3000/api/",
+    domain:"http://127.0.0.1:3000/api/",
     id:"meidai",
   });
 
@@ -33,6 +33,8 @@ UrlManager.prototype = {
     let url = json.url;
     if(this.lastupdated != json.lastupdated){
       this.lastupdated = json.lastupdated;
+      let dd= new Date();
+      url += "?"+dd;
       this.frame.src = url;
     }
   }
