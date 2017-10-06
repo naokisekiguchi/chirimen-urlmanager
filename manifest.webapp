@@ -11,8 +11,10 @@
   "type":"certified",
   "permissions":{
     "browser":{},
-    "systemXHR":{}
+    "systemXHR":{},
+    "wifi-manage":{}
   },
+  "origin": "app://chirimen-urlmanager.com",
   "developer": {
     "name": "Your name",
     "url": "http://example.com"
